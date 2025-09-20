@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Your Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="images/profile.jpg" alt="Your Name" class="img-fluid rounded-circle profile-pic mb-3">
+                </div>
+                <div class="col-md-8">
+                    <h3>Hello! I'm [Your Name]</h3>
+                    <p class="lead">I am a passionate [Your Profession, e.g., Web Developer, Designer] with a love for creating clean, efficient, and beautiful digital experiences.</p>
+                    <p>This is where you can write a brief biography about yourself. Talk about your background, what got you into your field, and what you're passionate about. Mention key skills or technologies you specialize in. Your career journey can be a short story of your professional growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Portfolio Gallery</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project One (e.g., Web Design)</h5>
+                            <p class="card-text">A brief description of your project. What was the goal? What technologies did you use?</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/project2.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Two (e.g., Development)</h5>
+                            <p class="card-text">A brief description of your project. What was the goal? What technologies did you use?</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/project3.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Three (e.g., Graphic Design)</h5>
+                            <p class="card-text">A brief description of your project. What was the goal? What technologies did you use?</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
