@@ -11,7 +11,6 @@ A responsive and professional **single-page portfolio** website built to showcas
 
 ## 📸 Demo
 ![Portfolio Screenshot](images/demo.gif)
-*(Note: You can create a screenshot of your site and name it `screenshot.png` in your root folder to display it here.)*
 
 ---
 
