@@ -13,6 +13,12 @@ A responsive and professional **single-page portfolio** website built to showcas
 ![Portfolio Screenshot](images/demo.gif)
 
 ---
+## Project Report
+
+[Click To View the report](https://github.com/abelalexander18/Personal-Portfolio/blob/main/personal_portfolio_l%26t.pdf)
+
+---
+
 
 ## 🚀 Features
 - **Modern Dark Theme UI**
